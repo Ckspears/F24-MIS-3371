@@ -1,10 +1,10 @@
 /* 
-    Program name: patient-form.html
+    Program name: hw2.html
     Author: Carisma Spears
     Date created: 9/13/2024
-    Date last edited: 9/21/2024
-    Version: 1.0
-    Description: Homework 1 JavaScript
+    Date last edited: 10/19/2024
+    Version: 2.0
+    Description: Homework 2 JavaScript
 */
 
 //dynamic date JS code//
