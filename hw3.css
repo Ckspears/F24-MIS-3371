@@ -1,0 +1,209 @@
+/* 
+    Program name: hw3.css
+    Author: Carisma Spears
+    Date created: 9/13/2024
+    Date last edited: 11/8/2024
+    Version: 3.0
+    Description: Homework 3 CSS file
+*/
+
+header {
+    width: 100%;
+    background-color: rgba(18, 87, 190, 0.5);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(76, 124, 195, 0.5);
+    margin: 0;
+    height: 100%;
+    min-height: 100vh; /*make sure page is the height of the viewport*/
+}
+
+form {
+    flex-grow: 1;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+main {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.td1 {
+    text-align: right;
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+}
+
+th {
+    text-align: center;
+    font-family: "tahoma", sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(76, 124, 195, 0.5);
+    height: 2.5 rem;
+}
+
+#footer {
+    text-align: right;
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label {
+    text-align: right;
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+}
+
+input {
+    text-align: left;
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+}
+
+#s1 {
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+}
+
+textarea {
+    text-align: left;
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+}
+
+#today {
+    text-align: left;
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+}
+
+P {
+    text-align: right;
+    font-family: "tahoma", sans-serif;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+}
+
+.pword-message {
+    text-align: left;
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+    position: relative;
+    left: 100px;
+    background: transparent;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: red;
+}
+
+#review {
+    margin-top: 5px;
+}
+
+table.output, 
+tr.output,
+td.output {
+    width: 500px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: black;
+    font-weight: normal;
+}
+
+td.outputdata {
+    width: 500px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-spacing: 2px;
+}
+
+/*alert box styling*/
+#alert-box {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(76, 124, 195, 0.227);
+}
+
+#alert-content {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 135px;
+    margin: auto;
+    margin-top: 20%;
+    padding: 30px;
+    text-align: center;
+}
+
+#alert-content h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "tahoma", sans-serif;
+    font-weight: normal;
+}
+    
+#close-alert {
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(76, 124, 195);
+    border-color: rgb(76, 124, 195);
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "tahoma", sans-serif;
+}
